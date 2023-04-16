@@ -7,15 +7,15 @@ import "../styles/header.css";
 const navLinks = [
   {
     path: "/home",
-    display: "Home",
+    display: "Start",
   },
   {
     path: "/about",
-    display: "About",
+    display: "O nas",
   },
   {
     path: "/cars",
-    display: "Cars",
+    display: "Flota",
   },
 
   {
@@ -24,7 +24,7 @@ const navLinks = [
   },
   {
     path: "/contact",
-    display: "Contact",
+    display: "Kontakt",
   },
 ];
 
