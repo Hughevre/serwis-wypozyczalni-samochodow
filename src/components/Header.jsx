@@ -35,7 +35,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      {/* ============ header top ============ */}
+      {/***** Top bar *****/}
       <div className="header__top">
         <Container>
           <Row>
@@ -43,7 +43,7 @@ const Header = () => {
               <div className="header__top__left">
                 <span>Potrzebujesz pomocy?</span>
                 <span className="header__top__help">
-                  <i className="ri-phone-fill"></i> +48 987-654-321
+                  <i className="ri-phone-fill"></i> +48 22 999-99-99
                 </span>
               </div>
             </Col>
@@ -62,65 +62,6 @@ const Header = () => {
           </Row>
         </Container>
       </div>
-
-      {/* =============== header middle =========== */}
-      <div className="header__middle">
-        <Container>
-          <Row>
-            <Col lg="4" md="3" sm="4">
-              <div className="logo">
-                <h1>
-                  <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <i className="ri-car-line"></i>
-                    <span>
-                      Wypożyczalnia <br/> Carently
-                    </span>
-                  </Link>
-                </h1>
-              </div>
-            </Col>
-
-            <Col lg="3" md="3" sm="4">
-              <div className="header__location d-flex align-items-center gap-2">
-                <span>
-                  <i className="ri-earth-line"></i>
-                </span>
-                <div className="header__location-content">
-                  <h4>Polska</h4>
-                  <h6>Warszawa, Kraków</h6>
-                </div>
-              </div>
-            </Col>
-
-            <Col lg="3" md="3" sm="4">
-              <div className="header__location d-flex align-items-center gap-2">
-                <span>
-                  <i className="ri-time-line"></i>
-                </span>
-                <div className="header__location-content">
-                  <h4>Poniedziałek-Piątek</h4>
-                  <h6>6 - 22</h6>
-                </div>
-              </div>
-            </Col>
-
-            <Col
-              lg="2"
-              md="3"
-              sm="0"
-              className=" d-flex align-items-center justify-content-end "
-            >
-              <button className="header__btn btn ">
-                <Link to="/contact">
-                  <i className="ri-phone-line"></i> Skontaktuj się
-                </Link>
-              </button>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-      {/* ========== main navigation =========== */}
 
       <div className="main__navbar">
         <Container>
@@ -147,7 +88,7 @@ const Header = () => {
 
             <div className="nav__right">
               <div className="search__box">
-                <input type="text" placeholder="Search" />
+                <input type="text" placeholder="Wyszukaj" />
                 <span>
                   <i className="ri-search-line"></i>
                 </span>

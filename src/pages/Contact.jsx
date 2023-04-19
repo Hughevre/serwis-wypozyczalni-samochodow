@@ -33,7 +33,6 @@ const Contact = () => {
           <Row>
             <Col lg="7" md="7">
               <h6 className="fw-bold mb-4">Napisz do nas</h6>
-
               <Form>
                 <FormGroup className="contact__form">
                   <Input placeholder="Imię i nazwisko" type="text" />
@@ -63,7 +62,7 @@ const Contact = () => {
                 </p>
                 <div className=" d-flex align-items-center gap-2">
                   <h6 className="fs-6 mb-0">Telefon:</h6>
-                  <p className="section__description mb-0">+48 22 343-12-79</p>
+                  <p className="section__description mb-0">+48 22 999-99-99</p>
                 </div>
 
                 <div className=" d-flex align-items-center gap-2">

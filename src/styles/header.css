@@ -1,6 +1,6 @@
 .header__top {
     padding: 10px 0px;
-    background: #000d6b;
+    background: #202020;
     color: #fff;
   }
   
@@ -38,72 +38,11 @@
     color: #fff;
   }
   
-  /* ============ header middle style =========== */
-  
-  .header__middle {
-    padding: 20px 0px;
-  }
-  
-  .logo h1 a span {
-    font-size: 1.5rem;
-  }
-  
-  .logo h1 a i {
-    font-size: 2.2rem;
-  }
-  
-  .logo h1 a {
-    text-decoration: none;
-    color: #000d6b;
-    font-weight: 700;
-  }
-  
-  .logo h1 {
-    line-height: 1.5rem;
-  }
-  
-  .header__location span i {
-    font-size: 2.2rem;
-    color: #000d6b;
-  }
-  
-  .header__location-content h4 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #000d6b;
-  }
-  
-  .header__location-content h6 {
-    font-weight: 600;
-  }
-  
-  .header__btn {
-    background: #000d6b !important;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-  }
-  
-  .header__btn a {
-    display: flex;
-    align-items: center;
-    column-gap: 0.4rem;
-    text-decoration: none;
-    color: #fff;
-    justify-content: flex-end;
-    font-size: 0.9rem;
-  }
-  
-  .header__btn a:hover {
-    color: #fff;
-  }
-  
   /* ================ main navbar styles =========== */
   
   .main__navbar {
     padding: 15px 0px;
-    background: #000d6b;
+    background: #202020;
   }
   
   .mobile__menu i {
@@ -129,7 +68,8 @@
   }
   
   .nav__item:hover {
-    color: #f9a826;
+    color: #F1B24A;
+    opacity: 50%;
   }
   
   .search__box {
@@ -138,7 +78,7 @@
     display: flex;
     align-items: center;
     border-radius: 50px;
-    background: #020a4de9;
+    background: #F1B24A;
   }
   
   .search__box input {
@@ -152,13 +92,14 @@
   .search__box input::placeholder {
     font-size: 0.8rem;
   }
+
   .search__box span i {
     color: rgba(255, 255, 255, 0.555);
     cursor: pointer;
   }
   
   .nav__active {
-    color: #f9a826;
+    color: #F1B24A;
   }
   
   @media only screen and (max-width: 768px) {

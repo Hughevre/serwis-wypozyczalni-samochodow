@@ -72,9 +72,9 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Kontakt</h5>
               <p className="office__info">ul. Myśliwska 5, 00-343 Warszawa</p>
-              <p className="office__info">Telefon: +48 22 343-12-79</p>
+              <p className="office__info">Telefon: +48 22 999-99-99</p>
               <p className="office__info">E-mail: bok@carently.com</p>
-              <p className="office__info">Godziny pracy biura: 9 - 17</p>
+              <p className="office__info">Godziny otwarcia: 9 - 17</p>
             </div>
           </Col>
 
